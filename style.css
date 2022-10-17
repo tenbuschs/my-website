@@ -1,10 +1,23 @@
-h1{
+/*--------------------------------------------------------------------
+---file:    styles.css
+---author:  Tenbusch, Simon
+---date:    2022-10-17
+---------------------------------------------------------------------*/
+
+
+h3{
   font-size: 50px;
   color: green;
 }
 
+/*Klasse*/
+.h_mainparagraph{
+  color: blue;
+}
 
-h3{
-  
-  
+
+/*ID. einzigartig für nur ein Element im html*/
+
+#eineId{
+  color:red;
 }

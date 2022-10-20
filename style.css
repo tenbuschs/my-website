@@ -25,12 +25,12 @@ h3{
 
 
 #hauptabschnitt{
-      margin-left: 10%;
-      margin-right: 10%;
+  
+      margin-left: 20%;
 }
 
 #ha_1_start{
-  
+  margin-bottom: 20%;
   background-color: var(--col_darkgreen);
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
   background-repeat: no-repeat;

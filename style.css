@@ -9,6 +9,13 @@
   --col_darkgrey: #333333;
   --col_midgrey: #979797;
   --col_lightgrey: #C8C8C8
+    
+
+}
+
+body{
+      margin-left: 10%;
+      margin-right: 10%;
 }
 
 #ha_1_start{
@@ -19,12 +26,12 @@
   background-position: right;
   background-attachment: fixed;
   color: var(--col_lightgrey);
-  font-family: Arial;
+  font-family: verdana;
 }
 
 
 #i_am{
-  font-size: 80px;
+  font-size: 600%;
 }
 
 #ha_2_erfahrungen{

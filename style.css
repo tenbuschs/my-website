@@ -14,6 +14,12 @@
 }
 
 body{
+   background-color: var(--col_darkgrey);
+    font-family: verdana;
+}
+
+
+#hauptabschnitt{
       margin-left: 10%;
       margin-right: 10%;
 }
@@ -26,12 +32,12 @@ body{
   background-position: right;
   background-attachment: fixed;
   color: var(--col_lightgrey);
-  font-family: verdana;
+
 }
 
 
 #i_am{
-  font-size: 600%;
+  font-size: 500%;
 }
 
 #ha_2_erfahrungen{

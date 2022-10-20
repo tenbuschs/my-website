@@ -42,6 +42,13 @@ h3{
 
 }
 
+#infotext{
+  width:10%;
+  height:10%;
+    background-color: var(--col_darkgrey);
+  text-align: center;
+}
+
 
 #i_am{
   font-size: 500%;

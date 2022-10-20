@@ -4,15 +4,22 @@
 ---date:    2022-10-17
 ---------------------------------------------------------------------*/
 
+:root{
+  --col_darkgreen:#0A5020;
+  --col_darkgrey: #333333;
+  --col_midgrey: #979797;
+  --col_lightgrey: #C8C8C8
+}
 
 #ha_1_start{
   
-  background-color: #0A5020;
+  background-color: var(--col_darkgreen);
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
-  color: white
+  color: var(--col_lightgrey);
+  font-family: 
 }
 
 
@@ -22,37 +29,25 @@
 
 #ha_2_erfahrungen{
     background-color: #0A5020;
+    color: var(--col_lightgrey);
 }
 
 #ha_3_qualifikationen{
     background-color: #0A5020;
+    color: var(--col_lightgrey);
 }
 
 #ha_4_meilensteine{
     background-color: #0A5020;
+    color: var(--col_lightgrey);
 }
 
 #ha_5_kontakt{
     background-color: #0A5020;
+    color: var(--col_lightgrey);
 }
 
 
 
 
 
-h3{
-  font-size: 50px;
-  color: green;
-}
-
-/*Klasse*/
-.h_mainparagraph{
-  color: blue;
-}
-
-
-/*ID. einzigartig für nur ein Element im html*/
-
-#eineId{
-  color:red;
-}

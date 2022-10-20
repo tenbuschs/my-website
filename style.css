@@ -4,6 +4,18 @@
 ---date:    2022-10-17
 ---------------------------------------------------------------------*/
 
+#ha_1_start{
+
+  background-color: red;
+  background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.png?v=1665753093080");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
 
 h3{
   font-size: 50px;

@@ -4,12 +4,13 @@
 ---date:    2022-10-17
 ---------------------------------------------------------------------*/
 
-#ha_1_start{
 
+#ha_1_start{
+  
   background-color: #0A5020;
-  background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666261956403");
+  background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
   color: white
 }

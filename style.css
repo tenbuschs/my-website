@@ -33,6 +33,8 @@ h3{
   margin-bottom: 20%;
   background-color: var(--col_darkgreen);
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
+  height: 1000px;
+  width: 5000px;
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;

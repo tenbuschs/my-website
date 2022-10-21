@@ -15,7 +15,7 @@
 }
 
 body{
-
+  margin-left: 10%;
    font-family: verdana, arial;
 }
 
@@ -24,12 +24,17 @@ h3{
   font-size: 200%;
 }
 
-
-#hauptabschnitt{
-  
-  margin-left: 10%;
+#mainframe{
+    margin-left: 10%;
   margin-right: 10%;
 }
+#head li{
+  border-bottom: 1px solid black;
+display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+}
+
+
 
 #ha_1_start{
   margin-bottom: 20%;

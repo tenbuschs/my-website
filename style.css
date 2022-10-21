@@ -5,17 +5,18 @@
 ---------------------------------------------------------------------*/
 
 :root{
+  --col_midgreen: #0A9120;
   --col_darkgreen:#0A5020;
   --col_darkgrey: #333333;
   --col_midgrey: #979797;
-  --col_lightgrey: #C8C8C8
+  --col_lightgrey: #C8C8C8;
     
 
 }
 
 body{
 
-   font-family: verdana;
+   font-family: verdana, arial;
 }
 
 h3{

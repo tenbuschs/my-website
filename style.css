@@ -15,8 +15,9 @@
 }
 
 body{
-  margin-left: 10%;
+  background-color: var(--col_darkgrey);
    font-family: verdana, arial;
+  color:white;
 }
 
 h3{
@@ -32,6 +33,7 @@ h2{
     font-size:150%;
 }
 #mainframe{
+
     margin-left: 10%;
   margin-right: 10%;
 }
@@ -39,18 +41,19 @@ h2{
 
 display: inline; /* li nebeneinander anzeigen */
     list-style-type: none; /* ohne Aufzählungspunkte */
-    margin: 0 5% 0 0;
+    margin: 0 8% 0 0;
 }
 
 #head{
     background-color: var(--col_darkgrey);
     border-bottom: 1px solid black;
-    color: white;
+  font-size:100%
+
 }
 
 #icon_top{
-  width:10%;
-  height:50%;
+  width:5%;
+  height:20%;
 }
 
 
@@ -63,7 +66,7 @@ display: inline; /* li nebeneinander anzeigen */
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: scroll;
-  color: white;
+
 
 }
 
@@ -77,29 +80,27 @@ display: inline; /* li nebeneinander anzeigen */
 
 
 #i_am{
-  margin-top:10%;
+  gap:10%;
+  margin-top:5%;
   margin-left:10%;
   font-size: 500%;
+  
 }
 
 #ha_2_erfahrungen{
     background-color: #0A5020;
-    color: var(--col_lightgrey);
 }
 
 #ha_3_qualifikationen{
     background-color: #0A5020;
-    color: var(--col_lightgrey);
 }
 
 #ha_4_meilensteine{
     background-color: #0A5020;
-    color: var(--col_lightgrey);
 }
 
 #ha_5_kontakt{
     background-color: #0A5020;
-    color: var(--col_lightgrey);
 }
 
 

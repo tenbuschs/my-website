@@ -69,9 +69,8 @@ h2{
 
 
 .barhoriz {
-  text: center;
   margin: 2px;
-  width: 50%;
+  width: 80%;
   height: 16px;
   border: 3px solid var(--col_midgrey);
   border-radius: 3px;
@@ -120,6 +119,11 @@ display: inline; /* li nebeneinander anzeigen */
   height:20%;
 }
 
+#icon_info{
+  width:15%;
+  margin-bottom:10%;
+  margin-top:10%;
+}
 
 #ha_1_start{
   margin-bottom: 20%;
@@ -135,12 +139,19 @@ display: inline; /* li nebeneinander anzeigen */
 }
 
 #infotext{
+margin-left:10%;
+  margin-right:10%;
+}
+
+#infokasten{
+  
   width:70%;
-  height:200px;
+  height:500px;
   background-color: var(--col_darkgrey);
   text-align: center;
   margin-left: 15%;
   box-shadow: 2px 2px 5px #979797;
+  margin-bottom:-10%;
 }
 
 

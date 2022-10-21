@@ -80,7 +80,6 @@ display: inline; /* li nebeneinander anzeigen */
 
 
 #i_am{
-  gap:10%;
   margin-top:5%;
   margin-left:10%;
   font-size: 500%;
@@ -88,7 +87,7 @@ display: inline; /* li nebeneinander anzeigen */
 }
 
 #ha_2_erfahrungen{
-    background-color: #0A5020;
+border-top: 1px black;
 }
 
 #ha_3_qualifikationen{
@@ -101,6 +100,39 @@ display: inline; /* li nebeneinander anzeigen */
 
 #ha_5_kontakt{
     background-color: #0A5020;
+}
+
+
+.timeline li {
+  list-style: none;
+  padding-bottom: 1.8rem !important;
+  border-left: 2px dotted #897B76;
+  position: relative;
+  padding-left: 20px !important;
+  margin-left: -10px !important;
+  margin-bottom: 0px !important;
+}
+
+.timeline li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0px !important;
+}
+
+.timeline li:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: #E25013;
+  box-shadow: 4px 4px 2px #979797;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 0px;
+}
+
+.timeline li span {
+  margin-top: -6px;
 }
 
 

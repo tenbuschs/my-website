@@ -29,9 +29,16 @@ h3{
   margin-right: 10%;
 }
 #head li{
-  border-bottom: 1px solid black;
+
 display: inline; /* li nebeneinander anzeigen */
     list-style-type: none; /* ohne Aufzählungspunkte */
+    margin: 0 5% 0 0;
+}
+
+#head{
+    background-color: var(--col_darkgrey);
+    border-bottom: 1px solid black;
+    color: white;
 }
 
 

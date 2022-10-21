@@ -88,11 +88,11 @@ display: inline; /* li nebeneinander anzeigen */
   
 }
 
-#ha_2_erfahrungen{
+#ha_3_erfahrungen{
 border: 1px solid black;
 }
 
-#ha_3_qualifikationen{
+#ha_2_qualifikationen{
     background-color: #0A5020;
 }
 
@@ -139,5 +139,15 @@ border: 1px solid black;
 
 
 
-
+.barhoriz {
+margin: 2px;
+width: 200px;
+height: 16px;
+border: 1px solid #ddd;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+background: #fff;
+}
 

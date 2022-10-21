@@ -27,11 +27,74 @@ h3{
 
 h2{
   margin-left:10%;
-  margin-bottom:20%;
-  margin-top:20%;
+  margin-bottom:15%;
+  margin-top:15%;
   margin-right:30%;
-    font-size:150%;
+    font-size:250%;
 }
+
+
+.timeline li {
+  list-style: none;
+  padding-bottom: 1.8rem !important;
+  border-left: 2px solid var(  --col_midgreen);
+  position: relative;
+  padding-left: 20px !important;
+  margin-left: -10px !important;
+  margin-bottom: 0px !important;
+}
+
+.timeline li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0px !important;
+}
+
+.timeline li:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: var(--col_midgreen);
+  box-shadow: 1px 1px 3px #979797;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 0px;
+}
+
+.timeline li span {
+  margin-top: -6px;
+}
+
+
+
+.barhoriz {
+  text: center;
+  margin: 2px;
+  width: 50%;
+  height: 16px;
+  border: 3px solid var(--col_midgrey);
+  border-radius: 3px;
+  overflow: hidden;
+  background: white;
+}
+
+.hprogress {
+  height: 15px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  text-shadow: 0 0 2px grey;
+  line-height: 13px;
+  padding: 1px 0 0 4px;
+  color: white;
+}
+
+.barcolor {
+  background: var(--col_darkgrey);
+}
+
+
 #mainframe{
 
     margin-left: 10%;
@@ -103,51 +166,3 @@ border: 1px solid black;
 #ha_5_kontakt{
     background-color: #0A5020;
 }
-
-
-.timeline li {
-  list-style: none;
-  padding-bottom: 1.8rem !important;
-  border-left: 2px solid var(  --col_midgreen);
-  position: relative;
-  padding-left: 20px !important;
-  margin-left: -10px !important;
-  margin-bottom: 0px !important;
-}
-
-.timeline li:last-child {
-  border: 0px;
-  padding-bottom: 0;
-  margin-bottom: 0px !important;
-}
-
-.timeline li:before {
-  content: '';
-  width: 15px;
-  height: 15px;
-  background: var(--col_midgreen);
-  box-shadow: 1px 1px 3px #979797;
-  border-radius: 50%;
-  position: absolute;
-  left: -8px;
-  top: 0px;
-}
-
-.timeline li span {
-  margin-top: -6px;
-}
-
-
-
-.barhoriz {
-margin: 2px;
-width: 200px;
-height: 16px;
-border: 1px solid #ddd;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-overflow: hidden;
-background: #fff;
-}
-

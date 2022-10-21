@@ -47,7 +47,8 @@ display: inline; /* li nebeneinander anzeigen */
 #head{
     background-color: var(--col_darkgrey);
     border-bottom: 1px solid black;
-  font-size:100%
+  font-size:100%;
+  box-shadow: 1px 1px 3px #979797;
 
 }
 
@@ -76,6 +77,7 @@ display: inline; /* li nebeneinander anzeigen */
   background-color: var(--col_darkgrey);
   text-align: center;
   margin-left: 15%;
+  box-shadow: 2px 2px 5px #979797;
 }
 
 
@@ -87,7 +89,7 @@ display: inline; /* li nebeneinander anzeigen */
 }
 
 #ha_2_erfahrungen{
-border-top: 1px black;
+border: 1px solid black;
 }
 
 #ha_3_qualifikationen{
@@ -106,7 +108,7 @@ border-top: 1px black;
 .timeline li {
   list-style: none;
   padding-bottom: 1.8rem !important;
-  border-left: 2px dotted #897B76;
+  border-left: 2px solid var(  --col_midgreen);
   position: relative;
   padding-left: 20px !important;
   margin-left: -10px !important;
@@ -123,8 +125,8 @@ border-top: 1px black;
   content: '';
   width: 15px;
   height: 15px;
-  background: #E25013;
-  box-shadow: 4px 4px 2px #979797;
+  background: var(--col_midgreen);
+  box-shadow: 1px 1px 3px #979797;
   border-radius: 50%;
   position: absolute;
   left: -8px;

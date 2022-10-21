@@ -26,27 +26,29 @@ h3{
 
 #hauptabschnitt{
   
-      margin-left: 20%;
+      margin-left: 10%;
+        margin-right: 10%;
 }
 
 #ha_1_start{
   margin-bottom: 20%;
   background-color: var(--col_darkgreen);
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
-  height: 1000px;
-  width: 5000px;
+  height: 1000%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: right;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: var(--col_lightgrey);
 
 }
 
 #infotext{
-  width:10%;
-  height:10%;
-    background-color: var(--col_darkgrey);
+  width:70%;
+  height:200px;
+  background-color: var(--col_darkgrey);
   text-align: center;
+  margin-left: 15%;
 }
 
 

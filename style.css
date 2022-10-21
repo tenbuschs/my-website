@@ -76,6 +76,7 @@ h2{
   border-radius: 3px;
   overflow: hidden;
   background: white;
+  margin-bottom: 10%;
 }
 
 .hprogress {
@@ -141,7 +142,7 @@ display: inline; /* li nebeneinander anzeigen */
 #infotext{
 margin-left:10%;
   margin-right:10%;
-  margin
+  font-size:150%;
 }
 
 #infokasten{

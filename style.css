@@ -27,10 +27,10 @@ h3{
 
 h2{
   margin-left:10%;
-  margin-bottom:15%;
-  margin-top:15%;
+  margin-bottom:7%;
+  margin-top:7%;
   margin-right:30%;
-    font-size:250%;
+    font-size:220%;
 }
 
 
@@ -126,14 +126,14 @@ display: inline; /* li nebeneinander anzeigen */
 }
 
 #ha_1_start{
-  margin-bottom: 20%;
-  background-color: var(--col_darkgreen);
+  margin-bottom: 10%;
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
   height: 1000%;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right top;
   background-attachment: scroll;
+
 
 
 }
@@ -141,24 +141,24 @@ display: inline; /* li nebeneinander anzeigen */
 #infotext{
 margin-left:10%;
   margin-right:10%;
+  margin
 }
 
 #infokasten{
   
   width:70%;
-  height:500px;
+  
   background-color: var(--col_darkgrey);
   text-align: center;
   margin-left: 15%;
   box-shadow: 2px 2px 5px #979797;
-  margin-bottom:-10%;
 }
 
 
 #i_am{
   margin-top:5%;
   margin-left:10%;
-  font-size: 500%;
+  font-size: 450%;
   
 }
 

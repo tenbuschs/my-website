@@ -14,8 +14,8 @@
 }
 
 body{
-   background-color: var(--col_darkgreen);
-   font-family: verdana;
+
+   font-family: segoe ui;
 }
 
 h3{
@@ -26,8 +26,8 @@ h3{
 
 #hauptabschnitt{
   
-      margin-left: 10%;
-        margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #ha_1_start{
@@ -39,7 +39,7 @@ h3{
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: scroll;
-  color: var(--col_lightgrey);
+  color: white;
 
 }
 

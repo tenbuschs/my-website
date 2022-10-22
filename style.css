@@ -176,8 +176,10 @@ margin-left:10%;
 #ha_2_qualifikationen{
     background-color: var(--col_darkgrey);
 
- background-image: url(" https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/modern_work.svg?v=1666428396666") ;
-   background-repeat: no-repeat;
+ background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/20220731_212219_adobe_express.svg?v=1666429155568") ;
+  height:150%;
+    width:100%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   
   background-position: bottom;

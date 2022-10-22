@@ -16,7 +16,7 @@
 
 body{
   background-color: var(--col_darkgrey);
-   font-family: verdana, arial;
+   font-family: verdana, arial, sans-serif;
   color:white;
 }
 
@@ -171,11 +171,16 @@ margin-left:10%;
 }
 
 #ha_3_erfahrungen{
-border: 1px solid black;
 }
 
 #ha_2_qualifikationen{
-    background-color: #0A5020;
+    background-color: var(--col_darkgrey);
+
+ background-image: url(" https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/modern_work.svg?v=1666428396666") ;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-position: bottom;
 }
 
 #ha_4_meilensteine{

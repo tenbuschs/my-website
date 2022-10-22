@@ -94,7 +94,14 @@ h2{
   background: var(--col_darkgrey);
 }
 
-
+.abstand_green{
+  font-size:100%;
+  color: var(--col_darkgreen);
+}
+.abstand_grey{
+  font-size:100%;
+  color: var(--col_darkgrey);
+}
 #mainframe{
 
     margin-left: 10%;

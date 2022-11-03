@@ -116,6 +116,11 @@ h2 {
   margin: 0 8% 0 0;
 }
 
+#social-media li {
+  display: inline; /* li nebeneinander anzeigen */
+  list-style-type: none; /* ohne Aufzählungspunkte */
+  margin: 0 30% 0 0;
+}
 #head {
   background-color: var(--col_darkgrey);
   border-bottom: 1px solid black;

@@ -165,8 +165,7 @@ h2 {
   font-size: 450%;
 }
 
-#ha_3_erfahrungen {
-}
+
 
 #ha_2_qualifikationen {
   background-color: var(--col_darkgrey);
@@ -182,6 +181,7 @@ h2 {
 
 #ha_4_meilensteine {
   background-color: #0a5020;
+  height: 8cm;
 }
 
 #ha_5_kontakt {
@@ -189,7 +189,8 @@ h2 {
 }
 
 #kontaktformular{
-  height: 100%;
-  width: 100%;
+  height: 10cm;
+  width: 60%;
+  margin-left:20%;
   background-color: var(--col_darkgrey);
 }

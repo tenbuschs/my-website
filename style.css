@@ -4,40 +4,46 @@
 ---date:    2022-10-17
 ---------------------------------------------------------------------*/
 
-:root{
-  --col_midgreen: #0A9120;
-  --col_darkgreen:#0A5020;
+:root {
+  --col_midgreen: #0a9120;
+  --col_darkgreen: #0a5020;
   --col_darkgrey: #333333;
   --col_midgrey: #979797;
-  --col_lightgrey: #C8C8C8;
-    
-
+  --col_lightgrey: #c8c8c8;
 }
 
-body{
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+body {
   background-color: var(--col_darkgrey);
-   font-family: verdana, arial, sans-serif;
-  color:white;
+  font-family: verdana, arial, sans-serif;
+  color: white;
 }
 
-h3{
+h3 {
   text-align: center;
   font-size: 200%;
 }
 
-h2{
-  margin-left:10%;
-  margin-bottom:7%;
-  margin-top:7%;
-  margin-right:30%;
-    font-size:220%;
+h2 {
+  margin-left: 10%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  margin-right: 30%;
+  font-size: 220%;
 }
-
 
 .timeline li {
   list-style: none;
   padding-bottom: 1.8rem !important;
-  border-left: 2px solid var(  --col_midgreen);
+  border-left: 2px solid var(--col_midgreen);
   position: relative;
   padding-left: 20px !important;
   margin-left: -10px !important;
@@ -51,7 +57,7 @@ h2{
 }
 
 .timeline li:before {
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
   background: var(--col_midgreen);
@@ -65,8 +71,6 @@ h2{
 .timeline li span {
   margin-top: -6px;
 }
-
-
 
 .barhoriz {
   margin: 2px;
@@ -94,46 +98,43 @@ h2{
   background: var(--col_darkgrey);
 }
 
-.abstand_green{
-  font-size:100%;
+.abstand_green {
+  font-size: 100%;
   color: var(--col_darkgreen);
 }
-.abstand_grey{
-  font-size:100%;
+.abstand_grey {
+  font-size: 100%;
   color: var(--col_darkgrey);
 }
-#mainframe{
-
-    margin-left: 10%;
+#mainframe {
+  margin-left: 10%;
   margin-right: 10%;
 }
-#head li{
-
-display: inline; /* li nebeneinander anzeigen */
-    list-style-type: none; /* ohne Aufzählungspunkte */
-    margin: 0 8% 0 0;
+#head li {
+  display: inline; /* li nebeneinander anzeigen */
+  list-style-type: none; /* ohne Aufzählungspunkte */
+  margin: 0 8% 0 0;
 }
 
-#head{
-    background-color: var(--col_darkgrey);
-    border-bottom: 1px solid black;
-  font-size:100%;
+#head {
+  background-color: var(--col_darkgrey);
+  border-bottom: 1px solid black;
+  font-size: 100%;
   box-shadow: 1px 1px 3px #979797;
-
 }
 
-#icon_top{
-  width:5%;
-  height:20%;
+#icon_top {
+  width: 5%;
+  height: 20%;
 }
 
-#icon_info{
-  width:15%;
-  margin-bottom:10%;
-  margin-top:10%;
+#icon_info {
+  width: 15%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
-#ha_1_start{
+#ha_1_start {
   margin-bottom: 10%;
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/me-main.svg?v=1666262945759");
   height: 1000%;
@@ -141,54 +142,54 @@ display: inline; /* li nebeneinander anzeigen */
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: scroll;
-
-
-
 }
 
-#infotext{
-margin-left:10%;
-  margin-right:10%;
-  font-size:150%;
+#infotext {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 150%;
 }
 
-#infokasten{
-  
-  width:70%;
-  
+#infokasten {
+  width: 70%;
+
   background-color: var(--col_darkgrey);
   text-align: center;
   margin-left: 15%;
   box-shadow: 2px 2px 5px #979797;
 }
 
-
-#i_am{
-  margin-top:5%;
-  margin-left:10%;
+#i_am {
+  margin-top: 5%;
+  margin-left: 10%;
   font-size: 450%;
-  
 }
 
-#ha_3_erfahrungen{
+#ha_3_erfahrungen {
 }
 
-#ha_2_qualifikationen{
-    background-color: var(--col_darkgrey);
+#ha_2_qualifikationen {
+  background-color: var(--col_darkgrey);
 
- background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/20220731_212219_adobe_express.svg?v=1666429155568") ;
-  height:150%;
-    width:100%;
+  background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/20220731_212219_adobe_express.svg?v=1666429155568");
+  height: 150%;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+
   background-position: bottom;
 }
 
-#ha_4_meilensteine{
-    background-color: #0A5020;
+#ha_4_meilensteine {
+  background-color: #0a5020;
 }
 
-#ha_5_kontakt{
-    background-color: #0A5020;
+#ha_5_kontakt {
+  background-color: #0a5020;
+}
+
+#kontaktformular{
+  height: 100%;
+  width: 100%;
+  background-color: var(--col_darkgrey);
 }

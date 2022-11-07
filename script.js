@@ -1,1 +1,3 @@
-window.alert("Hallo");
+//window.alert("Hallo");
+
+console.log("Hallo");

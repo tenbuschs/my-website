@@ -157,7 +157,6 @@ h2 {
 
 #infokasten {
   width: 70%;
-
   background-color: var(--col_darkgrey);
   text-align: center;
   margin-left: 15%;
@@ -174,13 +173,11 @@ h2 {
 
 #ha_2_qualifikationen {
   background-color: var(--col_darkgrey);
-
   background-image: url("https://cdn.glitch.global/b71d9a38-1991-4547-817e-c28612af2276/20220731_212219_adobe_express.svg?v=1666429155568");
   height: 150%;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-position: bottom;
 }
 
@@ -198,4 +195,10 @@ h2 {
   width: 60%;
   margin-left:20%;
   background-color: var(--col_darkgrey);
+  box-shadow: 2px 2px 5px #979797;
+}
+
+#social-media{
+    margin-left:33%;
+  margin-bottom:10%;
 }
